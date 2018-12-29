@@ -3,6 +3,10 @@
 *.tfstate.backup
 .terraform.tfstate.lock.info
 
+# Supporting files
+.DS_Store
+.project
+
 # Module directory
 .terraform/
 .git
