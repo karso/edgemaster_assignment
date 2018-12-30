@@ -31,12 +31,12 @@ variable "app_count" {
 
 variable "ecs_autoscale_role" {
   description = "Role arn for the ecsAutocaleRole"
-  default     = "arn:aws:iam::158367233910:role/aws-service-role/ecs.amazonaws.com/AWSServiceRoleForECS"
+  default     = "arn:aws:iam::{account}:role/aws-service-role/ecs.amazonaws.com/AWSServiceRoleForECS"
 }
 
 variable "ecs_task_execution_role" {
   description = "Role arn for the ecsTaskExecutionRole"
-  default     = "arn:aws:iam::158367233910:role/ecsTaskExecutionRole"
+  default     = "arn:aws:iam::{account}:role/ecsTaskExecutionRole"
 }
 
 variable "health_check_path" {
