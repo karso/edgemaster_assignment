@@ -53,13 +53,6 @@ resource "aws_security_group" "ecs_tasks" {
     security_groups = ["${aws_security_group.lb.id}"]
   }
 
-  ingress {
-    from_port = 22
-    to_port = 22
-    protocol = "tcp"
-    cidr_blocks = ["0.0.0.0/0"]
-  }
-
   egress {
     protocol    = "-1"
     from_port   = 0
