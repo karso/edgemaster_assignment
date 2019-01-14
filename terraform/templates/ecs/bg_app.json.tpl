@@ -13,7 +13,7 @@
     ],
    "command": [
       "--text",
-      "Hello EdgeMaster! :-)"
+      "${display_string}"
    ]
   }
 ]

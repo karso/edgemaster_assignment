@@ -19,6 +19,7 @@ data "template_file" "bg_app" {
     fargate_memory = "${var.fargate_memory}"
     aws_region     = "${var.aws_region}"
     app_port       = "${var.app_port}"
+    display_string = "${var.display_string}"
   }
 }
 
