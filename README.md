@@ -40,7 +40,7 @@ vi variables.tf
 ```
 terraform init
 terraform plan  (optional)
-terraform apply 
+terraform apply -var display_string='YOUR SPECIAL STRING HERE'
 ```
 Once the command promots for input, type 'yes'
 
@@ -60,8 +60,8 @@ Hello EdgeMaster! :-)
 Version 1.0
 
 ## ToDo
-1. Add logs. CloudWatch - WIP
-2. Pass the text from command line rather than hard coding.
+1. Add logs. CloudWatch - [DONE]
+2. Pass the text from command line rather than hard coding. [DONE]
 3. Test other versions of terraform
 
 ## Authors
