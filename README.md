@@ -11,7 +11,8 @@ https://www.terraform.io/downloads.html
 ```
 It is an open source tool by HashiCorp to implement infrastructure as Code. It supoorts almost all major cloud platforms. Terraform has a very strong community support too.
 
-2. AWS 
+2. AWS
+
 First set up access key and secret key.
 ```
 https://docs.aws.amazon.com/sdk-for-java/v1/developer-guide/setup-credentials.html
@@ -40,7 +41,7 @@ vi variables.tf
 ```
 terraform init
 terraform plan  (optional)
-terraform apply -var display_string='YOUR SPECIAL STRING HERE'
+terraform apply -var display_string='YOUR SPECIAL STRING'
 ```
 Once the command promots for input, type 'yes'
 
@@ -52,7 +53,7 @@ https://bg-load-balancer-{somerandomnumber}.us-west-2.elb.amazonaws.com
 ### Verify
 If everything works you'll see a page with the message
 ```
-Hello EdgeMaster! :-)
+YOUR SPECIAL STRING
 ```
 
 ## Versioning
