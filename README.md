@@ -58,7 +58,7 @@ YOUR SPECIAL STRING
 
 ## Versioning
 
-Version 1.0
+Version 1.1
 
 ## ToDo
 1. Add logs. CloudWatch - [DONE]
